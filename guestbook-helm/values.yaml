@@ -7,8 +7,8 @@ replicaCount: 3
 name: guestbook-ui
   
 image:
-  repository: paulbouwer/hello-kubernetes:1.10
-  tag: 0.1
+  repository: paulbouwer/hello-kubernetes
+  tag: 1.10
   pullPolicy: IfNotPresent
 
 service:
